@@ -8,7 +8,7 @@ public class Sample1
     public static void main(String[] args)
 {
     //System.loadLibrary("Sample1");
-    System.load(System.getProperty("user.dir") + java.io.File.separator + "libtar.so");
+    System.load(System.getProperty("user.dir") + java.io.File.separator + "libtar.dylib");
 
     Sample1 sample = new Sample1();
     int square = sample.intMethod(5);
